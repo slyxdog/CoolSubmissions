@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CoolSubmissionsWorking</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  <form>
+  <label>Name:</label>
+  <input v-model="name" placeholder="Username(Atleast 2 Characters)"/>
+  <label>Email:</label>
+  <input v-model="email" placeholder="Email(Valid Email Required)"/>
+  </form>
+  <div v-show="emailValid">{{submitting}}</div>
+  <charone></charone>
+  <chartwo></chartwo>
+  <charthree></charthree>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
